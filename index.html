@@ -6,9 +6,16 @@
         body{
             background-color:Mistyrose;
         }
-        .center{
-            margin-left: auto;
-            margin-right: auto;
+       .parent {
+            position: relative;
+        }
+        .child {
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%, -50%);
+        }
+         
     </style>
     
 </head>
@@ -23,7 +30,7 @@
         <b>Savory Waffles</b>
     </li>  
   </ul> 
-  <table class="center";border="1">
+  <table border="1">
       <tr>
           <th>Indredients</th>
           <th>Amount Needed</th>
